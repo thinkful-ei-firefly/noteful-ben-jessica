@@ -1,0 +1,11 @@
+.sidebar {
+    display: inline-block;
+    border: 3px solid darkgray;
+}
+
+.add-folder {
+    display: block;
+    border: 1px solid black;
+    background-color: white;
+
+}

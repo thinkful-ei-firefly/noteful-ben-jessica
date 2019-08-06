@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+}
+
+.header-bar {
+    border-bottom: 1px solid black;
+    padding: 30px;
+}

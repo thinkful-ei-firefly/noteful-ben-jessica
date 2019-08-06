@@ -5,6 +5,7 @@ import NoteSidebar from './components/NoteSidebar';
 import STORE from './dummy-store.js';
 import Notebook from './components/Notebook';
 import DetailNote from './components/DetailNote';
+import { Route } from 'react-router-dom';
 
 class App extends React.Component {
 
@@ -19,6 +20,8 @@ class App extends React.Component {
     return (
       <main className='App'>
         <Header />
+        {/* <Route exact path='/' component = {Sidebar}/> */}
+        
         <Sidebar folders={this.state.STORE.folders}/>
         {/* <NoteSidebar state={this.state} /> */}
 

@@ -6,7 +6,7 @@ function NoteView (props) {
 
     return (
         <div>
-            <NoteSidebar folders={props.folders} folderId={props.folderId} />
+            <NoteSidebar folders={props.folders} notes={props.notes} noteId={props.noteId} history={props.history} />
             <DetailNote notes={props.notes} noteId={props.noteId}/>
         </div>      
 

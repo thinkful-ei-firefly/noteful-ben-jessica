@@ -28,7 +28,7 @@ class App extends React.Component {
   render () {
     return (
       <main className='App'>
-        <Header />
+        <Header setFolderId={this.setFolderId}/>
 
         <Route 
           exact path="/"
@@ -54,11 +54,12 @@ class App extends React.Component {
 
         <Route 
           path="/note/:noteid"
-          render={() => <NoteView 
+          render={({history}) => <NoteView 
             notes={this.state.STORE.notes} 
             noteId={this.state.selectedNoteId} 
             folders={this.state.STORE.folders} 
             folderId={this.state.selectedFolderId}
+            history={history}
             />}
         />
 

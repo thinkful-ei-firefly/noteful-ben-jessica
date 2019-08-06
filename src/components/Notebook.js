@@ -1,7 +1,6 @@
 import React from 'react';
 import Note from './Note';
 
-
 function Notebook(props) {
     let notes = props.notes;
     

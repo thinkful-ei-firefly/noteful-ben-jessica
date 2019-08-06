@@ -1,5 +1,5 @@
 import React from 'react';
-import Note from './Note';
+import Notecard from './Notecard';
 
 
 function DetailNote(props) {
@@ -7,7 +7,7 @@ function DetailNote(props) {
     
   return (
       <section>
-          <Note id={note.id} name={note.name} modified={note.modified} key={note.id}/>
+          <Notecard id={note.id} name={note.name} modified={note.modified} key={note.id}/>
           <p>{note.content}</p>
       </section>
   );

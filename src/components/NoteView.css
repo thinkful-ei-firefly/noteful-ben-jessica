@@ -1,0 +1,17 @@
+.sidebar, .note-detail {
+  display: inline-block;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.note-detail {
+  margin: 10px;
+  width: 60%;
+}
+
+.note {
+  list-style: none;
+  padding: 10px;
+}

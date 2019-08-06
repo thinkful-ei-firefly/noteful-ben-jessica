@@ -1,6 +1,7 @@
 import React from 'react';
 import NoteSidebar from './NoteSidebar';
 import DetailNote from './DetailNote';
+import './NoteView.css';
 
 function NoteView (props) {
 

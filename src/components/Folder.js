@@ -1,5 +1,4 @@
 import React from 'react';
-import './Folder.css';
 import { NavLink } from 'react-router-dom';
 
 function Folder(props) {

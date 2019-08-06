@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import Notebook from './Notebook';
+import './MainView.css';
 
 function MainView (props) {
 

@@ -11,11 +11,11 @@ function Notebook(props) {
 
     
   return (
-      <section>
+      <section className="notebook">
           <ul>
             {htmlNotes}
           </ul>          
-          <button>Add Note</button>
+          <button className="add-note-button">Add Note</button>
       </section>
   );
 }

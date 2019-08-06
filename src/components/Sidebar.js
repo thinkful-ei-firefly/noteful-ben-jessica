@@ -1,6 +1,5 @@
 import React from 'react';
 import Folder from './Folder';
-import './Sidebar.css';
 
 
 function Sidebar(props) {

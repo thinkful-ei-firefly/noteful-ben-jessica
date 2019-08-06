@@ -1,10 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import NoteSidebar from './components/NoteSidebar';
 import STORE from './dummy-store.js';
-import Notebook from './components/Notebook';
-import DetailNote from './components/DetailNote';
 import { Route } from 'react-router-dom';
 import MainView from './components/MainView';
 import NoteView from './components/NoteView';

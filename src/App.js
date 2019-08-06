@@ -9,8 +9,8 @@ class App extends React.Component {
 
   state = {
     STORE, 
-    selectedFolderId: "b0715efe-ffaf-11e8-8eb2-f2801f1b9fd1", 
-    selectedNoteId: "d26e01a6-ffaf-11e8-8eb2-f2801f1b9fd1"
+    selectedFolderId: null, 
+    selectedNoteId: null
   }
 
   setNoteId = (newId) => {

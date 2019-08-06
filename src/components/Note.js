@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 function Note(props) {
@@ -6,7 +7,7 @@ function Note(props) {
     
   return (
     <li>
-        <h2>{props.name}</h2>
+        <h2><NavLink to={`/note/${props.id}`} onClick={() => props.setNoteId(props.id)}>{props.name}</NavLink></h2>
         <span>{date.toLocaleDateString()}</span>
         <button>Delete</button>
     </li>

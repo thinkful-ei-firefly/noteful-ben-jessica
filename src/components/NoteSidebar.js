@@ -4,8 +4,8 @@ import React from 'react';
 function NoteSidebar(props) {
 
 
-const folders = props.state.STORE.folders;
-const id = props.state.selectedFolderId;
+const folders = props.folders;
+const id = props.folderId;
 const foundFolder = folders.find(folder => folder.id ===id)
 
 

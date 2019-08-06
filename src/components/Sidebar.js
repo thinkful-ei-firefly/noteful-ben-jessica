@@ -5,7 +5,7 @@ import './Sidebar.css';
 
 function Sidebar(props) {
 
-    const foldersHtml = props.folders.map(folder => <Folder name={folder.name} id={folder.id} key={folder.id}/>)
+    const foldersHtml = props.folders.map(folder => <Folder setFolderId={props.setFolderId} name={folder.name} id={folder.id} key={folder.id}/>)
 
   return (
     <section className="sidebar">

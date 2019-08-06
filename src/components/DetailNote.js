@@ -3,7 +3,7 @@ import Note from './Note';
 
 
 function DetailNote(props) {
-    const [note] = props.notes.filter(note => note.id===props.id);
+    const [note] = props.notes.filter(note => note.id===props.noteId);
     
   return (
       <section>

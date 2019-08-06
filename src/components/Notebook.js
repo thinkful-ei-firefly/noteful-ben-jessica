@@ -8,7 +8,7 @@ function Notebook(props) {
     if (props.id) {
         notes = notes.filter(note => note.folderId===props.id);
     }
-    const htmlNotes = notes.map(note => <Note id={note.id} name={note.name} modified={note.modified} key={note.id}/>)
+    const htmlNotes = notes.map(note => <Note id={note.id} name={note.name} modified={note.modified} key={note.id} setNoteId={props.setNoteId}/>)
 
     
   return (

@@ -1,10 +1,11 @@
 import React from 'react';
 import './Folder.css';
+import { NavLink } from 'react-router-dom';
 
 function Folder(props) {
     
   return (
-    <button className="folder-button" id={props.id}>{props.name}</button>
+    <NavLink to={`/folder/${props.id}`} onClick={() => props.setFolderId(props.id)} className="folder-button" id={props.id}>{props.name}</NavLink>
   );
 }
 
